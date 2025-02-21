@@ -1,0 +1,352 @@
+#logo { 
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    width: 100px;
+    height: auto; 
+    z-index: 999;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2;
+    padding: 1;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff3f3;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo { position: absolute;
+    top: 20px; 
+    left: 20px; 
+    width: 100px;
+    height: auto; 
+    z-index: 999;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#featured-products {
+    text-align: center; /* Center-align the products */
+}
+
+.product {
+    display: inline-block; /* Display products side by side */
+    width: calc(50% - 20px); /* Calculate width for two products with margins */
+    margin: 10px; /* Adjust spacing between products */
+    text-align: left; /* Align text inside the product box */
+}
+
+.product img {
+    width: 50%; /* Make sure images fill the container */
+    max-width: 200px; /* Limit image width */
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    font-style: italic;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+/* Global styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Shop page specific styles */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 90px;
+    text-align: center;
+    width: calc(33.33% - 40px); /* Adjust the width to fit three products in a row with margins */
+}
+
+.product img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    font-style: inherit;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+#contact-info {
+    max-width: 600px;
+    margin: 0 auto 20px; /* Added some bottom margin */
+}
+
+#contact-info h2 {
+    text-align: center;
+}
+
+#contact-info p {
+    text-align: center;
+}
+
+#contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-info ul li {
+    margin-bottom: 10px;
+}
+
+#contact-info ul li:first-child {
+    font-weight: bold;
+}
+
+/* Contacts page specific styles */
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form h2 {
+    text-align: center;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin-bottom: 5px;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#contactForm input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#contactForm input[type="submit"]:hover {
+    background-color: #000000;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+/* About page specific styles */
+#about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#about-content h2 {
+    text-align: center;
+}
+
+#about-content p {
+    text-align: justify;
+    line-height: 1.6;
+}
+.cart-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cart-button:hover {
+    background-color: #000000;
+}
